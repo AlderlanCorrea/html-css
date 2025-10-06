@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedando Video</title>
+</head>
+<body>
+    <h1>Adicionando videos hospedados localmente.</h1>
+    <p>Este video esta hospedado no meu proprio computador.</p>
+
+    <!-- primeiro jeito de adicionar videos-->
+    <video src="midias/13620412_1280_720_30fps.mp4" width="500" controls></video>
+
+    <!-- segundo geito de adicionar videos-->
+    <!-- Tambem usa source src-->
+    <video width="500" poster="capa do video" controls>
+        <source src="video em mp4" type="video/mp4"> <!--adicine o video em src-->
+        <source src="video em m4v" type="video/mp4">
+        <source src="video em webm" type="video/webm">
+        <source src="video em ogv" type="video/ogg">
+        <p> Seu navegador não tem compatibilade com reprodução de video.</p>
+    </video>
+    <h1></h1>
+</body>
+</html>

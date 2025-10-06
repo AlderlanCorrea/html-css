@@ -1,0 +1,13 @@
+body{
+ font-family: 'Courier New', Courier, monospace;
+ /*
+Medidas Absolutas
+cm, mm, in(polegadas), px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+16px geralmente = 1em
+ RECOMENDAÇÃO USE PX OU EM.
+*/
+ font-size: medium;
+}
